@@ -1,0 +1,13 @@
+name = "Technology Consultant"
+license = "#"
+licenselink = "#"
+description = "A highly customizable and mobile first Hugo template for personal portfolio with dark theme."
+homepage = "https://github.com/danialjose/hugo-technology-consultant-theme"
+demosite = "https://danjose.pt/"
+tags = ["Responsive", "Portfolio", "Personal","Dark Theme"]
+features = ["Dark Theme","Responsive"]
+min_version = "0.68.0"
+
+[author]
+  name = "Danial José"
+  homepage = "danjose.pt"

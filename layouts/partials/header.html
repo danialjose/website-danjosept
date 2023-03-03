@@ -1,0 +1,55 @@
+<header class="header" id="header">
+    <nav class="nav container">
+      <a href="/" class="nav__logo"><img src="/images/dan-jose-logo.svg" alt="IT Support | Consulting | Digital Marketing | Dan José Consulting | Lisbon"></a>
+      <div class='nav__menu' id="nav-menu">
+        <ul class="nav__list grid">
+          <!--<li class="nav__item">
+            <a href="/" class="nav__link nav_item--active"><i class="fas fa-home nav__icon"></i>Home</a>
+          </li>-->
+          <li class="nav__item">
+             <a href="/consulting" class="nav__link nav_item--active"><i class="fas fa-hands-helping nav__icon"></i>Consulting</a>
+          </li>
+          <li class="nav__item">
+             <a href="/development" class="nav__link nav_item--active"><i class="fas fa-file-code nav__icon"></i>Development</a>
+          </li>
+          <li class="nav__item">
+             <a href="/marketing" class="nav__link nav_item--active"><i class="fas fa-chart-line nav__icon"></i>Marketing</a>
+          </li>
+          <li class="nav__item">
+             <a href="/portfolio" class="nav__link nav_item--active"><i class="fas fa-shopping-bag nav__icon"></i>Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="/about" class="nav__link nav_item--active"><i class="fas fa-user nav__icon"></i>About</a>
+          </li>
+         <li class="nav__item">
+             <a href="/contact" class="nav__link nav_item--active"><i class="fas fa-envelope nav__icon"></i>Contact</a>
+         </li>
+        </ul>
+        <div >
+          <i class="fas fa-times nav__close" id="nav-close"></i>
+        </div>
+      </div>
+      <div class="nav__btns">
+        <span >
+          <i class="change-theme far fa-moon" id="theme-button"></i>
+        </span>
+        <!--##below code is to add custom menu with translator option, need more code to fix-->
+	<!--<ul class="nav navbar-nav">
+    	  {{ range .Site.Menus.main }}
+	  <li>
+	     <a href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+         {{end}}
+	 {{ partial "allLanguages.html" . }}
+        </ul> -->
+        <div class="nav__toggle" id="nav-toggle" >
+          <svg width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" fill="currentColor" class="ui-svg-inline">
+           <rect width="120" height="20"></rect>
+           <rect y="45" width="120" height="20"></rect>
+           <rect y="90" width="120" height="20"></rect>
+          </svg>
+        </div>
+      </div>
+
+    </nav>
+</header>

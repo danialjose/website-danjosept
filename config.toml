@@ -1,0 +1,55 @@
+baseURL = "http://danjose.pt/"
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[Languages]
+[Languages.en]
+	title = "Technology Consulting Services | IT Support | Dan José | Lisbon"
+	name = "Dan José"
+	description = "Technology Consultant | Software Developer | Digital Marketer"
+	weight = 0
+[[Languages.en.menu.main]]
+	url    = "/"
+	name   = "Home"
+	weight = 1
+[[Languages.en.menu.main]]
+	url = "/about"
+	name = "About"
+	weight = 2
+
+[Languages.pt]
+	title = "Portuguese | Technology Consulting Services | IT Support | Dan José | Lisbon"
+	name = "PT Dan José"
+	description = "PT Technology Consultant | Software Developer | Digital Marketer"
+	weight = 1
+[[Languages.pt.menu.main]]
+	name   = "Casa"
+	url    = "/pt"
+	weight = 3
+[[Languages.pt.menu.main]]
+	name = "Sobre Me"
+	url = "/pt/about/"
+	weight = 4
+
+
+[params]
+	favicon = "/images/favicon-192x192.png"
+	home_title = "Hi, I'm Danial José"
+	home_subtitle = "Technology Consultant | Software Developer | Digital Marketer"
+	home_description = "I assist my clients to find the right solutions and change their business challenges into opportunities for growth. My extensive knowledge of digital technologies and implantation of brand development and marketing elements, I provide a powerhouse of interconnected deliverables tailor-made to individual needs, goals, companies and industries.  In software development my focus has primarily been on web applications and their underlying infrastructure, but I can tackle most any software problem."
+	home_subtitle_child = "Moving to Lisbon, Portugal?"
+	home_description_child = "Are you new in Lisbon, Portugal or plan to move here? If you are an individual or business trying to establish in Lisbon you will face problems like language barrier, bureaucracy and lack of professional contacts. Let me help you to tackle all these problems and jump-start your life or business in this beautiful country. I have good contacts with advocates, accounts, realtors and other professionals."
+	github = "https://github.com/danialjose"
+	linkedin = "https://www.linkedin.com/in/danialjose/"
+	twitter = "https://twitter.com/danialjose"
+	phone1 = "PT +351 925 860 887"
+	phone2 = "US +1 (202) 630 2550"
+	email = "danialjose@gmail.com"
+	location = "Avenida Almirante Reis 120, Arroios, Lisbon, Portugal"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

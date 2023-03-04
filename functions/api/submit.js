@@ -53,9 +53,6 @@
        {
          headers: {
            "content-type": "application/json",
-           "accept": "application/json",
-           "api-key": "xkeysib-7dd771f48732d8f7b0a6fbfe04671b1494d422c10c09de58953df6c76ff6290f",
-
            // Allow all cors
            "Access-Control-Allow-Origin": "*",
            // Allow all cors methods
@@ -77,9 +74,6 @@
        {
          headers: {
            "content-type": "application/json",
-           "accept": "application/json",
-           "api-key": "xkeysib-7dd771f48732d8f7b0a6fbfe04671b1494d422c10c09de58953df6c76ff6290f",
-
            // Allow all cors
            "Access-Control-Allow-Origin": "*",
            // Allow all cors methods

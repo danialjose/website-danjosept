@@ -15,11 +15,12 @@ subtitle: "My Introduction"
   <p>
   My IT career began as a web-developer in 2011, from there to fast-forward to today, I’ve had the privilege of working  for organizations providing B2B and B2C services internationally.
   The key technologies and services in my skill set includes;
-
+</p>
+<p>
       Web applications | Mobile OS | Cloud | Servers
       DevOps | Digital Marketing | IT Consulting
-
-
+<p>
+ <p>
    My main focus these days are DevOps, Web3 and providing IT consulting services for businesses.
-    </p>
+  </p>
 </div>

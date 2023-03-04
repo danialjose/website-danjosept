@@ -20,7 +20,7 @@
                to: [
                  {
                    email: "opensource@thearcadia.xyz",
-                   name: "Name",
+                   name: "name",
                  },
                ],
              },

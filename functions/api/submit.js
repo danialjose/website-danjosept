@@ -63,7 +63,14 @@ export async function onRequestPost(context) {
     let pretty = JSON.stringify(output, null, 2);
     return new Response(pretty, {
       headers: {
-        'Content-Type': 'application/json;charset=utf-8',
+        'api-key': "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",
+        'Content-Type': 'application/json',
+        'accept': "application/json",
+        'mailgun_domain': "https://api.sendinblue.com/v3/smtp/email ",
+        'from': "no-reply <no-reply@danjose.pt>",
+        'admin_email': "danialjose@gmail.com",
+        'email_field': "email", // email field name
+        'form_fields': ["name", "message"], // list of required fields
       },
     });
   } catch (err) {

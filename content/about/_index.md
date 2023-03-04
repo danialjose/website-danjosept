@@ -5,15 +5,21 @@ subtitle: "My Introduction"
 
 <div class="container grid">
   <span class="section__title h2">
-    Hello! My name is <b class='main-color'>Danial José</b> from <b class='main-color'>Portugal</b>.
+    Hello! My name is <b class='main-color'>Danial José,</b> based in <b class='main-color'>Lisbon, Portugal</b>.
   </span>
   <p>
-    Experienced IT technical support and customer services executive with wide understanding of various Linux servers and web technologies. Specialization in open
-source applications, data security and privacy. Worked with organizations providing B2B and B2C services internationally. Posses knowledge of electronics and electrical devices, troubleshooting and maintenance.
+  Experienced IT professional with wide understanding of servers, cloud and web technologies. Specialization in open source applications, data security and privacy. Posses knowledge of electronics, IoT and embedded devices.
+  </p>
+    I'm multilingual, fluent in English, Malayalam, intermediate level in Portuguese, Hindi and Tamil languages. Throughout my career working in different countries, environments and cultures, I learned the importance of encouraging and supporting diversity of thought. In addition also trained in social psychology and sociology.
   </p>
   <p>
-    Trained in social psychology. Familiar with multicultural work environment, multilingual, acquired and developed cultural intelligence.
-  </p>
-  <p>Fast-forward to today, and I’ve had the privilege of working at 
-  	<a class='main-color' href="https://www.mikroskil.ac.id/" rel="noopener noreferrer" target="_blank">college</a>, <a href="https://www.transporindo.com/" class='main-color' rel="noopener noreferrer" target="_blank">a trasportation company</a>, and <a class='main-color' href="http://sisda.sumutprov.go.id/" rel="noopener noreferrer" target="_blank">a government office</a>. My main focus these days is lead small developer team for building mobile and website app for Music Distribution Company at <a href="http://premierpro.co.id/" rel="noopener noreferrer" target="_blank" class='main-color'>Premi Musik Era</a>.</p>
+  My IT career began as a web-developer in 2011, from there to fast-forward to today, I’ve had the privilege of working  for organizations providing B2B and B2C services internationally.
+  The key technologies and services in my skill set includes;
+
+      Web applications | Mobile OS | Cloud | Servers
+      DevOps | Digital Marketing | IT Consulting
+
+
+   My main focus these days are DevOps, Web3 and providing IT consulting services for businesses.
+    </p>
 </div>

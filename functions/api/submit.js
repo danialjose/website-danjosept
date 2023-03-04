@@ -29,7 +29,7 @@
              email: "inquiry@opensource.express",
              name,
            },
-           subject,
+           message,
            content: [
              {
                type: "text/plain",

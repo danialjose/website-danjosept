@@ -11,7 +11,7 @@
          headers: {
            "content-type": "application/json",
            "accept": "application/json",
-           "api-key": "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",
+           "api-key": "xkeysib-7dd771f48732d8f7b0a6fbfe04671b1494d422c10c09de58953df6c76ff6290f",
 
          },
          body: JSON.stringify({
@@ -54,7 +54,7 @@
          headers: {
            "content-type": "application/json",
            "accept": "application/json",
-           "api-key": "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",
+           "api-key": "xkeysib-7dd771f48732d8f7b0a6fbfe04671b1494d422c10c09de58953df6c76ff6290f",
 
            // Allow all cors
            "Access-Control-Allow-Origin": "*",
@@ -78,7 +78,7 @@
          headers: {
            "content-type": "application/json",
            "accept": "application/json",
-           "api-key": "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",
+           "api-key": "xkeysib-7dd771f48732d8f7b0a6fbfe04671b1494d422c10c09de58953df6c76ff6290f",
 
            // Allow all cors
            "Access-Control-Allow-Origin": "*",

@@ -1,8 +1,7 @@
 
  export async function onRequestPost(context) {
    try {
-     const { request } = context;
-
+     const { request } = await context.request.formData();
      const { name, email, message } = await request.json();
 
      const resp = await fetch(

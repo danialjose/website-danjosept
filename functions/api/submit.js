@@ -87,3 +87,7 @@
            // Allow all cors headers
            "Access-Control-Allow-Headers": "*",
          },
+       }
+       );
+     }
+   }

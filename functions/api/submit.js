@@ -1,86 +1,29 @@
+/**
+ * POST /api/submit
+ */
+export async function onRequestPost(context) {
+  try {
+    let input = await context.request.formData();
 
- export async function onRequestPost(context) {
-   try {
-     const { request } = await context.request.formData();
-     const { name, email, message } = await request.json();
+    // Convert FormData to JSON
+    // NOTE: Allows multiple values per key
+    let output = {};
+    for (let [key, value] of input) {
+      let tmp = output[key];
+      if (tmp === undefined) {
+        output[key] = value;
+      } else {
+        output[key] = [].concat(tmp, value);
+      }
+    }
 
-     const resp = await fetch(
-       new Request("https://api.sendinblue.com/v3/smtp/email", {
-         method: "POST",
-         headers: {
-           "content-type": "application/json",
-           "accept": "application/json",
-           "api-key": "xkeysib-7dd771f48732d8f7b0a6fbfe04671b1494d422c10c09de58953df6c76ff6290f",
-
-         },
-         body: JSON.stringify({
-           personalizations: [
-             {
-               to: [
-                 {
-                   email: "opensource@thearcadia.xyz",
-                   name: "name",
-                 },
-               ],
-             },
-           ],
-           from: {
-             email: "inquiry@opensource.express",
-             name,
-           },
-           message,
-           content: [
-             {
-               type: "text/plain",
-               value: `From: ${email}: ${message}`,
-             },
-           ],
-         }),
-       })
-     );
-
-     const respContent = resp.status + " " + resp.statusText;
-
-     return new Response(
-       JSON.stringify({
-         success: true,
-         data: {
-           message: "Your message has been sent!",
-           respContent,
-         },
-       }),
-       {
-         headers: {
-           "content-type": "application/json",
-           // Allow all cors
-           "Access-Control-Allow-Origin": "*",
-           // Allow all cors methods
-           "Access-Control-Allow-Methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
-           // Allow all cors headers
-           "Access-Control-Allow-Headers": "*",
-         },
-       }
-     );
-   } catch (err) {
-     return new Response(
-       JSON.stringify({
-         success: false,
-         data: {
-           message: "Something went wrong!",
-           error: err.message,
-         },
-       }),
-       {
-         headers: {
-           "content-type": "application/json",
-           // Allow all cors
-           "Access-Control-Allow-Origin": "*",
-           // Allow all cors methods
-           "Access-Control-Allow-Methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
-           // Allow all cors headers
-           "Access-Control-Allow-Headers": "*",
-         },
-       }
-       );
-     }
-   }
+    let pretty = JSON.stringify(output, null, 2);
+    return new Response(pretty, {
+      headers: {
+        'Content-Type': 'application/json;charset=utf-8',
+      },
+    });
+  } catch (err) {
+    return new Response('Error parsing JSON content', { status: 400 });
+  }
+}

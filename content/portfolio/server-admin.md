@@ -2,15 +2,15 @@
 draft: false
 title: "Server Administration"
 slug: server-admin
-job_type: "Linux and Windows based server management"
+job_type: "Linux based server management"
 stack: "Linux • Redhat • Windows • Ubuntu"
 website_link: "#"
 github_link: ""
 color: "#38aa11"
 index: 99
 
-thumb_image: "https://res.cloudinary.com/bonzdev/image/upload/w_1000,ar_16:9,c_fill,g_auto/v1621922693/mockup_crop/iiw_crop_z7h93m.png"
-cover_image: "https://res.cloudinary.com/bonzdev/image/upload/c_thumb,w_500,g_face/v1622111359/mockup_crop/iiw_crop_z7h93m.png"
+thumb_image: ""
+cover_image: ""
 ---
 <p>Server administration service involves managing and maintaining computer servers that store, process and transmit data, applications and services in a networked environment. The responsibilities of a server administrator may vary depending on the type of server being used, the size of the network and the level of support required.</p>
 

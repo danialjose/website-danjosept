@@ -2,15 +2,15 @@
 draft: false
 title: "Web hosting and email services"
 slug: web-hosting-support
-job_type: "Managing webhosting and email servers"
+job_type: "SaaS, PaaS, Cloud, AWS, Linux"
 stack: "Apache • Ngix • Cpanel • LAMP stack"
 website_link: "#"
 github_link: "#"
 color: "#1c6141"
 index: 99
 
-thumb_image: "https://res.cloudinary.com/bonzdev/image/upload/c_thumb,w_300/v1622358105/mockup_crop/mobile_starbuck_crop_avybmj.png"
-cover_image: "https://res.cloudinary.com/bonzdev/image/upload/v1622358105/mockup_crop/mobile_starbuck_crop_avybmj.png"
+thumb_image: ""
+cover_image: ""
 ---
 
 <p>A web hosting and email server support job typically involves providing technical support for customers who use web hosting and email services. This may include troubleshooting issues with web servers, email accounts, domain names, SSL certificates, and other related services.</p>

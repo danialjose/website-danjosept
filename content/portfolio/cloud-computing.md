@@ -2,14 +2,14 @@
 draft: false
 title: "Cloud Computing"
 slug: cloud-computing
-job_type: "Cloud computing migration and support"
+job_type: "Docker, Kubernetes, AWS, Cloudflare"
 stack: "AWS • Azure • Docker • Cloud • Containers"
 website_link: "#"
 github_link: ""
 color: "#fab302"
 index: 99
 
-thumb_image: "https://res.cloudinary.com/bonzdev/image/upload/c_thumb,w_300/v1622358106/mockup_crop/dodingmobile_crop_cuclft.png"
+thumb_image: ""
 cover_image: "/images/cloud-computing.png"
 ---
 

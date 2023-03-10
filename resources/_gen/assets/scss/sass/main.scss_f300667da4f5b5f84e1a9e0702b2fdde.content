@@ -316,9 +316,9 @@ body {
       transform: translateY(1.2rem); }
 
 .c-case__image {
-  background-position: right -4rem bottom;
+  background-position: right -6rem bottom;
   background-repeat: no-repeat;
-  background-size: auto 105%;
+  background-size: auto 100%;
   bottom: 0;
   left: 0;
   position: absolute;
@@ -333,17 +333,18 @@ body {
   max-width: 100%;
   opacity: 0.95;
   padding: 2.0rem;
-  padding-bottom: 4.8rem;
+  padding-bottom: 4.5rem;
   position: absolute;
   transition: all 0.15s ease-in-out;
-  transform: translateY(3.6rem);
-  width: 24rem;
-  -webkit-font-smoothing: antialiased; }
+  transform: translateY(3rem);
+  width: 22rem;
+  -webkit-font-smoothing: antialiased;
+  border-top-right-radius: 40px; }
 
 .c-case__title {
   font-size: 1rem;
   font-weight: 700;
-  line-height: 2.4rem; }
+  line-height: 0.5rem; }
 
 .c-case__subtitle {
   color: rgba(255, 255, 255, 0.9);

@@ -2,6 +2,7 @@
 <section class="about section mt-5" id="about">
     <h2 class="section__title">{{ .Title }}</h2>
     <span class="section__subtitle mb-1">{{ .Params.subtitle }}</span>
+
     <div class="container grid">
       <span class="section__title h2">
         {{ .Params.description }}
@@ -9,7 +10,15 @@
       <span class="h4">
        {{ .Content }}
       </span>
-      
+      <ul class="c-tags">
+      {{ range split .Params.stack "•" }}
+      <li class="c-tags__item">
+      <span  class="c-tags__label">
+          {{ . }}
+        </span>
+      </li>
+    {{ end }}
+  </ul>
     </div>
    </section>
 {{ end }}

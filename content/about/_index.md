@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-subtitle: "My Introduction"
+subtitle: "Who am I? - My Introduction"
 profile_photo: "/about/images/danjose-profile-photo.png"
 stack: "Web applications • Mobile OS • Cloud • Servers • DevOps • Digital Marketing • IT Consulting"
 ---

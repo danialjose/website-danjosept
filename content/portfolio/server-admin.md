@@ -10,6 +10,6 @@ color: "#38aa11"
 index: 7
 
 thumb_image: "/portfolio/images/georgelisbon-website-desktop.png"
-cover_image: ""
+cover_image: "/portfolio/images/georgelisbon-website-desktop.png"
 ---
 Under planning, will be launched in few months.

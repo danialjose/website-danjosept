@@ -9,7 +9,8 @@ github_link: "#"
 color: "maroon"
 index: 6
 
-thumb_image: ""
-cover_image: "/portfolio/images/georgelisbon-website-desktop.pngg"
+thumb_image: "/portfolio/images/georgelisbon-website-desktop.png"
+cover_image: "/portfolio/images/georgelisbon-website-desktop.png"
+
 ---
 The website is under development!
